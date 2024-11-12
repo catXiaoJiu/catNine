@@ -11,7 +11,7 @@ jupyter notebook
 
 curl https://api.deepseek.com/chat/completions \
   -H "Content-Type: application/json" \
-  -H "Authorization: Bearer sk-846f8705982f4a3b9dded306c125a9bf" \
+  -H "Authorization: Bearer $DEEPSEEK_API_KEY" \
   -d '{
         "model": "deepseek-chat",
         "messages": [
